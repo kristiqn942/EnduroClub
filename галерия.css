@@ -1,0 +1,78 @@
+.background{
+	background-color: #ffe6e6;
+}
+.header {
+  padding: 10px;
+  text-align: center;
+  background: orange;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  
+}
+.zaglavie{
+	text-decoration: none;
+	font-size: 30px;
+	color:white;
+}
+.snimka-yamaha{
+	margin-left:75px;
+	width: 100px;
+	display: inline-block;
+	
+
+		}
+
+.specs{
+	padding: 15px;
+	margin: 80px;
+	background-color: orange;
+	text-decoration: none;
+	color: white;
+
+}
+
+.snimka-hondacrf{
+	margin-left: 200px;
+	width: 100px;
+	display: inline-block;
+	
+
+}
+
+.specs1{
+	padding: 15px;
+	margin: 80px;
+	background-color: orange;
+	text-decoration: none;
+	color: white;
+}
+
+.snimka-hondacr{
+	margin-left: 200px;
+	width: 100px;
+	display: inline-block;
+}
+
+.specs2{
+	padding: 15px;
+	margin: 80px;
+	background-color: orange;
+	text-decoration: none;
+	color: white;
+}
+
+
+.snimka-yamahayz{
+	margin-left: 200px;
+	width: 100px;
+	display: inline-block;
+}
+
+.specs3{
+	padding: 15px;
+	margin: 80px;
+	background-color: orange;
+	text-decoration: none;
+	color: white;
+}

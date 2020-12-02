@@ -1,0 +1,16 @@
+.background{
+	background-color: #ffe6e6;
+}
+.header {
+  padding: 10px;
+  text-align: center;
+  background: orange;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  
+}
+.zaglavie{
+	text-decoration: none;
+	font-size: 30px;
+	color:white;

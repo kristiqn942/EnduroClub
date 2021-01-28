@@ -1,78 +1,129 @@
 .background{
-	background-color: #ffe6e6;
+	background: #C0C0C0;
 }
+
 .header {
-  padding: 10px;
+  padding: 50px;
   text-align: center;
   background: orange;
   color: black;
-  font-size: 20px;
+}
+#zaglavie{
+	  font-size: 40px;
+  font-weight: bold;
+font-family: "Times New Roman", Times, serif;
+text-decoration:none;
+color:black;
+
+}
+
+
+
+/*Навигацията на сайта
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  
+  font-size: 17px;
+
 }
-.zaglavie{
-	text-decoration: none;
-	font-size: 30px;
-	color:white;
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
 }
-.snimka-yamaha{
-	margin-left:75px;
-	width: 100px;
-	display: inline-block;
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #f2f2f2;
+  color: black;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+.motori{
+	margin: 20px;
+
+}	
+#crf-snimka{
+	position: relative;
+	left:60px;
+
+	}
+	
 	
 
-		}
 
-.specs{
-	padding: 15px;
-	margin: 80px;
-	background-color: orange;
-	text-decoration: none;
-	color: white;
+#buttoncrf{
+	position: relative;
+	top:30px;
+	right:215px;
+    padding: 10px;
+    background:orange;
+    text-decoration:none;
+    border-style: solid;
+    text-decoration:none;
+    border-color: black;
+    color: black;
 
 }
-
-.snimka-hondacrf{
-	margin-left: 200px;
-	width: 100px;
-	display: inline-block;
+#rmz-snimka{
+	position:relative;
+	right:85px;
+}
+#buttonrmz{
+padding: 10px;
+    background:orange;
+    text-decoration:none;
+    border-style: solid;
+    border-color: black;
+    position:relative;
+    top:30px;
+    right: 368px;
+    color: black;
+}
+#kx-snimka{
+	position:relative;
+	right: 230px;
 	
-
 }
-
-.specs1{
-	padding: 15px;
-	margin: 80px;
-	background-color: orange;
-	text-decoration: none;
-	color: white;
+#buttonkx{
+	padding: 10px;
+    background:orange;
+    text-decoration:none;
+    border-style: solid;
+    border-color: black;
+ color: black;
+ position:relative;
+ right: 520px;
+ top: 30px;
 }
-
-.snimka-hondacr{
-	margin-left: 200px;
-	width: 100px;
-	display: inline-block;
+#sx-snimka{
+	position: relative;
+	left: 1300px;
+	bottom: 185px
 }
-
-.specs2{
-	padding: 15px;
-	margin: 80px;
-	background-color: orange;
-	text-decoration: none;
-	color: white;
-}
-
-
-.snimka-yamahayz{
-	margin-left: 200px;
-	width: 100px;
-	display: inline-block;
-}
-
-.specs3{
-	padding: 15px;
-	margin: 80px;
-	background-color: orange;
-	text-decoration: none;
-	color: white;
+#buttonsx{
+	padding: 10px;
+    background:orange;
+    text-decoration:none;
+    border-style: solid;
+    border-color: black;
+ color: black;
+ position: relative;
+ left: 1035px;
+ bottom: 155px;
 }

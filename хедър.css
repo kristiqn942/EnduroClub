@@ -1,0 +1,53 @@
+.background{
+  background-color: #C0C0C0;
+}
+
+
+.header {
+  padding: 50px;
+  text-align: center;
+  background: orange;
+  color: black; 
+}
+#zaglavie{
+    font-size: 40px;
+  font-weight: bold;
+font-family: "Times New Roman", Times, serif;
+text-decoration:none;
+color:black;
+}
+
+/*Навигацията на сайта
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #f2f2f2;
+  color: black;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}

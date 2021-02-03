@@ -2,79 +2,64 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="начална страница.css">
+  <link rel="stylesheet" type="text/css" href="хедър">
   <title>Начална страница</title>
   <meta charset="utf-8">
 </head>
 <body class="background">
 
  <header>
-   <div class="header">
-  <a href ="начална страница.html"id="zaglavie">Enduro club Aksakovo</a>
-</div>
-<div class="topnav">
-  <a href="галерия.html">Мотори</a>
-  <a href="клипове.html">Клипове</a>
-  <a href="тракове.html">Снимки</a>
-  <a href="#about">Контакти</a>
-  <div class="topnav-right">
-    <a href="register.html">Регистрация</a>
-    <a href="вход.php">Вход</a>
-  </div>
-</div>
+<?php include 'хедър.php';?>
  </header>
  <main>
   <div class="main">
-   <label class="container">Кранево
-  <input type="checkbox" checked="checked">
+ <label class="container"> Izvorsko 
+  <input type="radio" checked="checked" name="radio">
   <span class="checkmark"></span>
 </label>
-
-<label class="container">Крумово
-  <input type="checkbox">
+<label class="container"> Dolishte
+  <input type="radio" name="radio">
   <span class="checkmark"></span>
 </label>
-
-<label class="container">Долище
-  <input type="checkbox">
+<label class="container"> Krumovo
+  <input type="radio" name="radio">
   <span class="checkmark"></span>
 </label>
-
-<label class="container">Изворско
-  <input type="checkbox">
+<label class="container"> Kranevo
+  <input type="radio" name="radio">
   <span class="checkmark"></span>
 </label>
- <main class="main1">
-   <label class="container">Кипра
-  <input type="checkbox" checked="checked">
+<label class="container">Kipra
+  <input type="radio" name="radio">
   <span class="checkmark"></span>
 </label>
 </div>
 <div class="gallery">
-  <a target="_blank" href="trackizvorsko.jpg">
+  <a target="_blank" href="Снимки/trackizvorsko.jpg">
     <img src="Снимки/trackizvorsko.jpg" alt="Cinque Terre" width="600" height="400">
   </a>
   <div class="desc">Тrack Izvorsko New</div>
 </div>
 <div class="gallery">
-  <a target="_blank" href="trackdolishte.jpg">
+  <a target="_blank" href="Снимки/trackdolishte.jpg">
     <img src="Снимки/trackdolishte.jpg" alt="Cinque Terre" width="600" height="400">
   </a>
   <div class="desc">Тrack Dolishte</div>
 </div>
 <div class="gallery">
-  <a target="_blank" href="trackkipra.jpg">
+  <a target="_blank" href="Снимки/trackkipra.jpg">
     <img src="Снимки/trackkipra.jpg" alt="Cinque Terre" width="600" height="400">
   </a>
   <div class="desc">Тrack Kipra Long</div>
 </div>
 <div class="gallery">
-  <a target="_blank" href="trackkranevo.jpg">
+  <a target="_blank" href="Снимки/trackkranevo.jpg">
     <img src="Снимки/trackkranevo.jpg" alt="Cinque Terre" width="600" height="400">
   </a>
   <div class="desc">Тrack Kranevo Short</div>
 </div>
 <div class="gallery">
-  <a target="_blank" href="trackkrumovo.jpg">
+  <a target="_blank" href="Снимки/trackkrumovo.jpg">
     <img src="Снимки/trackkrumovo.jpg" alt="Cinque Terre"width="600" height="400">
   </a>
   <div class="desc">Тrack Krumovo Long</div>
